@@ -1,0 +1,60 @@
+{
+  "_Navbar-Du4DIp5o.js": {
+    "file": "assets/Navbar-Du4DIp5o.js",
+    "name": "Navbar",
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Navbar-jsIuw74k.css"
+    ]
+  },
+  "_Navbar-jsIuw74k.css": {
+    "file": "assets/Navbar-jsIuw74k.css",
+    "src": "_Navbar-jsIuw74k.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BTxpKDVU.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/Employee.vue": {
+    "file": "assets/Employee-DeKh1Ryq.js",
+    "name": "Employee",
+    "src": "resources/js/Pages/Employee.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Navbar-Du4DIp5o.js",
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Employee-BgC6zziO.css"
+    ]
+  },
+  "resources/js/Pages/Index.vue": {
+    "file": "assets/Index-CnX3LT-g.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Navbar-Du4DIp5o.js",
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Index-DK8Il3DQ.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Cx_wOBAA.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Employee.vue",
+      "resources/js/Pages/Index.vue"
+    ],
+    "css": [
+      "assets/app-BTxpKDVU.css"
+    ]
+  }
+}
